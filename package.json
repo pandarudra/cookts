@@ -1,0 +1,26 @@
+{
+  "name": "cookts",
+  "version": "1.0.5",
+  "description": "Effortless live reloading for JavaScript and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "reload",
+    "watcher",
+    "dev-tool",
+    "cli"
+  ],
+  "bin": {
+    "cookts": "./run.js"
+  },
+  "author": "rudra_826",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2"
+  }
+}
