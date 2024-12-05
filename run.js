@@ -21,6 +21,7 @@ const runts = (cmd, args) => {
 
 runts("npx", ["tsc", "-b"])
   .then(() => {
+    runts("npx", ["nodemon", "--exec", "npx tsc -b "]);
     runts("npx", ["nodemon", "--exec", "npx ts-node src/index.ts"]);
   })
   .catch((err) => {

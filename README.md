@@ -1,6 +1,6 @@
 # Cookts
 
-Effortless live reloading for TypeScript.
+Effortless live compiling as well as reloading for TypeScript.
 
 ## Description
 
@@ -15,9 +15,9 @@ CookTS is a simple setup for live reloading TypeScript and JavaScript files usin
 
 ### Installation
 
-1. Install the dependencie :
+1. Install the dependencies:
    ```sh
-   npm install cookts
+   npm install
    ```
 
 ### Usage
