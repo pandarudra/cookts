@@ -18,11 +18,11 @@ const runts = (cmd, args) => {
     });
   });
 };
-
+const run_path = process.argv[2] || "src/index.ts";
 runts("npx", ["tsc", "-b"])
   .then(() => {
     runts("npx", ["nodemon", "--exec", "npx tsc -b "]);
-    runts("npx", ["nodemon", "--exec", "npx ts-node src/index.ts"]);
+    runts("npx", ["nodemon", "--exec", "npx ts-node " + run_path]);
   })
   .catch((err) => {
     console.log(err);
