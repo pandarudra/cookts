@@ -1,7 +1,7 @@
 {
   "name": "cookts",
-  "version": "1.0.5",
-  "description": "Effortless live reloading for JavaScript and TypeScript",
+  "version": "1.0.6",
+  "description": "Effortless live compiling as well as reloading for  TypeScript",
   "main": "index.js",
   "scripts": {
     "start": "nodemon"
