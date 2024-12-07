@@ -22,8 +22,23 @@ CookTS is a simple setup for live reloading TypeScript and JavaScript files usin
 
 ### Usage
 
-To start the application with live reloading, run:
+2.To start the application with live reloading,
+
+If your file path is src/index.ts
+run:
 
 ```sh
 npx cookts
+```
+
+else:
+
+```sh
+npx cookts file_name.ts
+```
+
+or
+
+```sh
+npx cookts dir/file_name.ts
 ```
